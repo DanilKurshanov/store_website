@@ -3,6 +3,20 @@
     font-size: 20px;
 }
 
+ul.menu {
+   float: right;
+    list-style: none;
+}
+
+ul.menu li {
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: opacity 500ms ease;
+}
+ul.menu li:hover {
+    opacity: .5;
+}
 .presentation {
     margin: 50px 0;
     background: url("../../assets/skindi-apart.jpg") no-repeat center bottom;

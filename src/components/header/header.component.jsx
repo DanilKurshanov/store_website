@@ -4,9 +4,14 @@ import './header.styled.css';
 const HeaderComponent = () => {
   return (
       <header>
-          <div>
+          <nav>
               <span className="logo">House Staff</span>
-          </div>
+              <ul className={'menu'}>
+                  <li>Про нас</li>
+                  <li>Кабинет</li>
+                  <li>Меню</li>
+              </ul>
+          </nav>
           <div className="presentation">
           </div>
       </header>
