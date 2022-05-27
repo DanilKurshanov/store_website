@@ -1,0 +1,35 @@
+.logo {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.presentation {
+    margin: 50px 0;
+    background: url("../../assets/skindi-apart.jpg") no-repeat center bottom;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-blend-mode: multiply;
+    background-color: #bcbcbc;
+    position: relative;
+}
+.presentation::after {
+    content: 'Лучшие товары для вашего дома';
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 300px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+.presentation::before {
+    content: 'по низким ценам';
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+}
